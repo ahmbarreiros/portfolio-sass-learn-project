@@ -1,10 +1,10 @@
-@import 'config';
-@import 'home';
-@import 'menu';
-@import 'about';
-@import 'projects';
-@import 'contact';
-@import 'responsive';
+@use 'config' as *;
+@use 'home' as *;
+@use 'menu' as *;
+@use 'about' as *;
+@use 'projects' as *;
+@use 'contact' as *;
+@use 'responsive' as *;
 
 
 body {
